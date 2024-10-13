@@ -34,8 +34,4 @@ jobs:
       with:
         name: Package
         path: staging 
-  deployment:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
     - name: deploy
